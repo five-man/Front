@@ -3,9 +3,14 @@
     margin: 0;
 }
 
-body {
-    height: 100%;
+body{
+    padding : 100px;
+    background-color: #dcf2ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 nav {
     position: fixed;
@@ -143,9 +148,12 @@ input[id="menuicon"]:checked + label + div {
     cursor: pointer;
 }   
 .container{
-    padding: 100px;
-
+    padding: 50px;
+    height: 65%;
+    width: 65%;
     position :static;
-  
+    border-radius: 20px;
+    background: white;
+
 
 }
