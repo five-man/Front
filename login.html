@@ -1,0 +1,51 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Signin</title>
+    <link href="{% static 'css/signin.css' %}" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+  </header>
+
+  <nav>
+      <h1>
+          <a href="#">Code With US!</a>
+      </h1>
+  </nav>
+<main class="form-signin">
+  <form>
+    <div class="login-title">
+    <h1 class>로그인</h1>
+    </div>
+    <div class="form-floating">
+      <label for="floatingInput">아이디</label>
+      <br>
+      <input type="email" class="form-control" id="floatingInput" placeholder="Your@mail.com">
+    </div>
+    <div class="form-floating">
+      <label for="floatingPassword">패스워드</label>
+      <a href="#" class="link-findPw">비밀번호 찾기</a>
+      <br>
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Enter password">
+    </div>
+
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> 자동 로그인
+      </label>
+    </div>
+    <button class="submit-btn" type="submit">스터디 시작하기</button>
+    <div class="bottomText">
+      스터디 참여 전이신가요? <a href="#">참여하기</a>
+    </div>
+  </form>
+</main>
+</body>
+
+</html>
