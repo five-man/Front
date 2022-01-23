@@ -34,61 +34,66 @@ nav a{
   color: white;
 }
 
-
 .form-signin {
-  width: 50%;
-  height: 70%;
+  width: 500px;
+  height: 530px;
   border-radius: 20px;
   background: white;
-  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: box-shadow 250ms ease-in;
   transition: transform 250ms ease-in;
   flex: 1 0 auto;
 }
 .form-signin .login-title {
-  margin-top: 10px;
   margin-bottom: 40px;
   text-align: center;
 }
 
-.form-signin .checkbox {
-  font-weight: 400;
-  margin-left: 10%;
-  margin-bottom: 20px;
-}
-
-.form-signin .form-floating {
-  margin-top: 20px;
-  margin-left: 10%;
-}
-
 .form-signin input[type="email"] {
-  width: 270px;
-  height: 30px;
+  width: 440px;
+  height: 40px;
   margin-top: 10px;
-  border-radius: 2px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  border-bottom-color: darkgray;
+  border-left-color: #ffffff;
+  border-right-color: darkgray;
+  border-top-color: #ffffff;
 }
 
 .form-signin input[type="password"] {
-  width: 270px;
-  height: 30px;
+  width: 440px;
+  height: 40px;
   margin-top: 10px;
-  margin-bottom: 20px;
-  border-radius: 2px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  border-bottom-color: darkgray;
+  border-left-color: #ffffff;
+  border-right-color: darkgray;
+  border-top-color: #ffffff;
+  
+}
+
+.form-signin a{
+  text-decoration: underline;
+  color: #20484f;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+  margin-bottom: 40px;
+  
 }
 
 .form-signin .submit-btn {
-  margin-left: 10%;
-  width: 280px;
-  height: 30px;
+  width: 440px;
+  height: 50px;
+  margin-bottom: 40px;
   background-color: #20484f;
-  border-radius: 2px;
+  border-radius: 5px;
   text-decoration: none;
   color: white;
-}
-
-.link-findPw {
-  text-align: right;
 }
 
 .bottomText {
