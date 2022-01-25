@@ -61,22 +61,23 @@ body{
 .menu-button{
     width: 1200px;
     min-width: 1000px;
+    height: 1000px;
     min-height: 700px;
-    height: 800px;
 }
 
 .row1, .row2{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: nowrap;
     margin: 0 auto;
     width: 90%;
-    min-height: 300px;
 }
 
 button{
     border: none;
     height: 40vh;
+    min-height: 300px;
     width: 40vw;
     border-radius: 8px;
     margin: 10px;
