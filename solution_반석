@@ -1,0 +1,51 @@
+=======
+            <!-- <button class="comback-btn">문제로 돌아가기</button> -->
+        </div>
+        {% for i in socm %}
+        <div class="solutions-group">
+            <div class="solution-info">
+                <div class="user-icon-div">
+                    <img class="user-icon" src="{% static 'css/user.jpg' %}" alt="user icon">
+                    <strong>{{i.member_no__member_name}} / {{i.sol_no}}</strong>
+                </div>
+                <div class="solution-btn">
+                    <button class="like-btn" value="">좋아요 {{i.count}}개</button>
+                    <button class="adj-btn"
+                        onclick="location.href='/solve/today_exam/update_exam{{i.sol_no}}/';">수정</button>
+>>>>>>> main
+
+
+
+=======
+                <p>{{i.sol_detail}}</p>
+            </div>
+
+            <ul class="comments">
+                {% comment %} <li class="comment-item">
+                    <div class="comment-head">
+                        <img class="user-icon" src="assets/user.jpg" alt="user icon">
+                    </div>
+                    <div class="comment-body">
+                        <p class="comment-text">와 진짜 깔끔하다</p>
+                        <h6>서승우</h6>
+                    </div>
+                </li> {% endcomment %}
+                {% for item in reply %}
+                <li class="comment-item"> 
+                    <div class="comment-head">
+                        <img class="user-icon" src="assets/user.jpg" alt="user icon">
+                    </div>
+                    <div class="comment-body">
+                        <p class="comment-text">{{item.comment_detail}}</p>
+                        <h6>서승우</h6>
+                    </div>  
+                </li>
+                {% endfor %}
+
+                <li class="commemt-line">
+                    {% comment %} <form class="comment-create" method="post">
+                        {% csrf_token %}
+                    </form> {% endcomment %}
+                    <div class="comment-form">
+                        <textarea type="text" class="comment-write" placeholder="댓글을 입력하세요"></textarea>
+>>>>>>> main
